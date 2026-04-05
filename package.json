@@ -1,0 +1,34 @@
+{
+  "name": "pruebas_unitarias_funcionales_software_03_diseno",
+  "version": "1.0.0",
+  "description": "Sigue las instrucciones delineadas en el [documento de la lección](https://hub.hybridge.education/doc/2-entorno-jest-y-primer-test-unitario-Vq9XIyWdew). Deberás crear los archivos necesarios y escribir la prueba unitaria que pruebe el endpoint `/tareas`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeshua-Romero-Guadarrama/pruebas_unitarias_funcionales_software_03_diseno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jeshua-Romero-Guadarrama/pruebas_unitarias_funcionales_software_03_diseno/issues"
+  },
+  "homepage": "https://github.com/Jeshua-Romero-Guadarrama/pruebas_unitarias_funcionales_software_03_diseno#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^7.2.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2"
+  }
+}
